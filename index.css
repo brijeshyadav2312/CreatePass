@@ -1,0 +1,77 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5,p{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  color: #128596;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inputArea{
+  width: 90%;
+  height: 50px;
+  font-size: 1.7rem;
+  padding: 0 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+.copy{
+  padding: 0.5rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+.passArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  margin-top: 2rem;
+  background-color: aliceblue;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.parent{
+  width: 800px;
+  height: 500px;
+  padding: 4rem;
+}
+.range{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  color: #128596;
+}
+select{
+  width: 90px;
+  height: 30px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+.chekArea{
+  font-size: 1.5rem;
+}
+button{
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #128596;
+  color: white;
+}
